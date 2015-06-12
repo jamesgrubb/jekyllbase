@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 8.47458%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  background-color: pink;
+  height: 50vh;
+}
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+header {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 8.47458%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.main {
+  height: 200px;
+  background-color: red;
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+.item {
+  width: 31.03448%;
+  float: left;
+  margin-right: 3.44828%;
+  background-color: teal;
+  padding: .5em;
+}
+
+.item:last-child {
+  width: 31.03448%;
+  float: right;
+  margin-right: 0;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: -1.69492%;
+  padding: 1.69492%;
+}
+
+/*# sourceMappingURL=style.css.map */

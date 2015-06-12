@@ -1,0 +1,40 @@
+// bower:scss
+// endbower
+@import 'susy';
+
+$susy : (
+columns: 12,
+gutters : .25,
+global-box-sizing : border-box,
+debug : (image : show),
+    );
+
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+    @include container(80%);
+    background-color: pink;
+    height: 50vh;
+
+}
+
+header{
+    @include container(80%);
+}
+
+.main{
+    height: 200px;
+    background-color: red;
+    @include span(6);
+}
+
+.item{
+    @include span(2 of 6);
+    background-color: teal;
+    padding: .5em;
+}
+.item:last-child{
+    @include span(2 of 6 last);
+    @include bleed(gutter());
+}

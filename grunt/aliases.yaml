@@ -1,0 +1,10 @@
+default : []
+
+live:
+    - 'browserSync'
+    - 'watch'
+
+inject:
+    - 'wiredep'
+    - 'injector'
+
