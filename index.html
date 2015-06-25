@@ -5,25 +5,31 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- injector:css -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- endinjector -->
 </head>
-
 <body>
-    <div class="wrapper">
-        
-        <div class="main">
-            <div class="item">item 1</div>
-            <div class="item">item 2</div>
-            <div class="item">item 3</div>
-        </div>
-
-    </div>
-    <header>
-        lorem30    
+    <div class="page">
+        <header class="banner">
+            <h1>header</h1>
         </header>
+        <nav class="navigation">
+            <ul class="navigation__inner">
+                <li>link</li>
+                <li>link</li>
+                <li>link</li>
+            </ul>
+        </nav>
+        <article class="main">
+            <h2>main contetn</h2>
+        </article>
+        <footer class="footer">
+            <p>footer</p>
+        </footer>
+    </div>
     <!-- injector:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/skrollr/src/skrollr.js"></script>
     <!-- endinjector -->
 </body>
 </html>

@@ -14,6 +14,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "normalize-scss": "~3.0.3"
+    "normalize-scss": "~3.0.3",
+    "breakpoint-sass": "~2.6.1",
+    "skrollr": "~0.6.29"
   }
 }
