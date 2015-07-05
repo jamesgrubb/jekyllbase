@@ -414,4 +414,20 @@ th {
   box-sizing: border-box;
 }
 
+.page {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 8.47458%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+.page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
 /*# sourceMappingURL=style.css.map */
