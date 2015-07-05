@@ -414,46 +414,4 @@ th {
   box-sizing: border-box;
 }
 
-.page {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
-  background-size: 8.47458%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top;
-  background-color: red;
-  height: 200vh;
-  margin: 0;
-  padding: 0;
-}
-.page:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-.navigation {
-  width: 15.25424%;
-  position: fixed;
-  background-color: #fff;
-  left: 8.47458%;
-  top: 0;
-}
-.navigation .navigation__inner {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.main {
-  margin-left: 25.42373%;
-}
-
-header, article, .nav-inner, footer {
-  padding: 6em 0;
-  outline: 1px solid red;
-}
-
 /*# sourceMappingURL=style.css.map */
